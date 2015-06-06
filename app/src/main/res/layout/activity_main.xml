@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+
+
+    <TextView android:text="@string/hello_world"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#8888FF"
+        android:fontFamily="Times New Roman"
+        android:textSize="28dp"
+        android:layout_marginBottom="20dp"
+         />
+
+    <Button
+        android:id="@+id/b_spotify_streamer"
+        android:text="@string/spotify_streamer"
+        style="@style/YoloAppButton"
+        android:onClick="buttonOnClickHandler"
+        />
+
+    <Button
+        android:id="@+id/b_scores_app"
+        android:text="@string/scores_app"
+        style="@style/YoloAppButton"
+        android:onClick="buttonOnClickHandler"
+        />
+
+    <Button
+        android:id="@+id/b_library_app"
+        android:text="@string/library_app"
+        style="@style/YoloAppButton"
+        android:onClick="buttonOnClickHandler"
+        />
+
+    <Button
+        android:id="@+id/b_build_it_bigger"
+        android:text="@string/build_it_bigger"
+        style="@style/YoloAppButton"
+        android:onClick="buttonOnClickHandler"
+        />
+
+    <Button
+        android:id="@+id/b_xyz_reader"
+        android:text="@string/xyz_reader"
+        style="@style/YoloAppButton"
+        android:onClick="buttonOnClickHandler"
+        />
+
+    <Button
+        android:id="@+id/b_capstone"
+        android:text="@string/capstone"
+        style="@style/YoloAppButton"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:onClick="buttonOnClickHandler"
+        />
+
+</LinearLayout>
